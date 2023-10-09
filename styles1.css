@@ -1,4 +1,5 @@
- body, h1, h2, p, ul, li, input, td {
+ /* Reset some default styles */
+body, h1, h2, p, ul, li, input, td {
     margin: 0;
     padding: 0;
 }
@@ -57,4 +58,9 @@ button {
 
 button:hover {
     background-color: #555;
+}
+
+/* New styles added to the end of the file */
+td.button-cell {
+    text-align: center;
 }
