@@ -15,47 +15,48 @@
         <h2>Internship Application Form</h2>
         <p>Please fill out the application form below to apply for our internship program:</p>
         
-        <!-- Create a table for your form -->
-        <table>
-            <tr>
-                <td><strong>Name:</strong></td>
-                <td><input type="text" name="name"></td>
-            </tr>
-            <tr>
-                <td><strong>Email:</strong></td>
-                <td><input type="email" name="email"></td>
-            </tr>
-            <tr>
-                <td><strong>Phone Number:</strong></td>
-                <td><input type="tel" name="phone"></td>
-            </tr>
-            <tr>
-                <td><strong>Domain:</strong></td>
-                <td><input type="text" name="domain"></td>
-            </tr>
-            <tr>
-                <td><strong>Portfolio Link:</strong></td>
-                <td><input type="url" name="portfolio"></td>
-            </tr>
-            <tr>
-                <td><strong>Address:</strong></td>
-                <td><input type="text" name="address"></td>
-            </tr>
-            <tr>
-                <td><strong>Country:</strong></td>
-                <td><input type="text" name="country"></td>
-            </tr>
-            <tr>
-                <td><strong>Resume (PDF or Word):</strong></td>
-                <td><input type="file" name="resume" accept=".pdf, .doc, .docx"></td>
-            </tr>
-             <tr>
+        <!-- Create a form element with an action attribute -->
+        <form action="process_application.php" method="POST" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td><strong>Name:</strong></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td><strong>Email:</strong></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><strong>Phone Number:</strong></td>
+                    <td><input type="tel" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><strong>Domain:</strong></td>
+                    <td><input type="text" name="domain"></td>
+                </tr>
+                <tr>
+                    <td><strong>Portfolio Link:</strong></td>
+                    <td><input type="url" name="portfolio"></td>
+                </tr>
+                <tr>
+                    <td><strong>Address:</strong></td>
+                    <td><input type="text" name="address"></td>
+                </tr>
+                <tr>
+                    <td><strong>Country:</strong></td>
+                    <td><input type="text" name="country"></td>
+                </tr>
+                <tr>
+                    <td><strong>Resume (PDF or Word):</strong></td>
+                    <td><input type="file" name="resume" accept=".pdf, .doc, .docx"></td>
+                </tr>
+                <tr>
                     <td colspan="2">
                         <button type="submit">Submit</button>
                     </td>
-             </tr>
-
-        </table>
+                </tr>
+            </table>
+        </form>
 
     </section>
 
