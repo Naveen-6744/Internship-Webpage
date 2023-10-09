@@ -62,4 +62,6 @@ button:hover {
     background-color: #555;
 }
 
-/* No need for the additional "td.button-cell" style */
+td.button-cell {
+    text-align: center;
+}
