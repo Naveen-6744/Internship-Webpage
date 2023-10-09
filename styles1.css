@@ -61,7 +61,3 @@ button {
 button:hover {
     background-color: #555;
 }
-
-td.button-cell {
-    text-align: center;
-}
