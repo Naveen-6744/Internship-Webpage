@@ -54,13 +54,12 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Center-align the button */
 }
 
 button:hover {
     background-color: #555;
 }
 
-/* New styles added to the end of the file */
-td.button-cell {
-    text-align: center;
-}
+/* No need for the additional "td.button-cell" style */
